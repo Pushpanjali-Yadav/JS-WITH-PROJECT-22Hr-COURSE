@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>variables in java script</h1>
+  <button onclick="alert('this is a button')">CLICK</button>
+<!-- js is below -->
+<script>
+  //-------Creating Variable Using " let " Key Wortd -------//
+let variable = 10;
+console.log(variable);
+let a = 10;
+console.log(a+50);
+// swaping using variable
+let a1 =200 , a2 =500 , temp;
+console.log('value after swapping'+a1+'\n'+a2)
+temp =a1;
+a1=a2;
+a2=temp;
+console.log('after swapping'+a1+'\n'+a2)
+
+  //-------Creating Variable Using " const " Key Wortd -----//
+  const b1 = 100;
+  console.log(b1);
+  b1=5000;
+  console.log(b1); // error (the value is not re-write due  to it's type const)
+//-------Creating Variable Using " var " Key Wortd -----//
+var c1 = 50;
+console.log(c1);
+c1=200;
+console.log(c1); //commonlly we can't use var to create variable in js due to some issues
+</script>
+
+</body>
+</html>
