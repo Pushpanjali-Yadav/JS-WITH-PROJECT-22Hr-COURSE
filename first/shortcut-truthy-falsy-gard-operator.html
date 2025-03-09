@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Truthy and Falsy Values</h1>
+<h1>shortcuts for if-statements is </h1>
+<h3>1..  Ternary Operator ?</h3>
+<h3>2..  Guard Operator &&</h3>
+<h3>3.. Default Operator ||</h3>
+  <script>
+    //<-------truthy and falsy values are use for sortcut to check codition ---------->
+    //TODO
+    // 1...Truthy the values that is not a falsy is called truthy
+    if(4)
+  {
+    console.log('tuthy');
+  }
+  // 2....falsy values list are given below (it says that the condition is false)
+  // 2.1....false 
+  if(false){
+    console.log('inside if statement');
+  }
+  else{
+    console.log('out side if statement');
+  }
+  // 2.2....0 it is zero a falsy value
+  if(0){
+    console.log('0 inside if');
+  }
+  else{
+    console.log('0 is falsy value');
+  }
+  // 2.3..... ' ' it is also a falsy value
+  let name;
+  if('name'){
+    console.log('it does not contain vany value');
+  }
+  // 2.4..... NaN IT MEANS (NOT A NUMBER)
+console.log('raj'/9); //it return NaN
+// 2.5.... undefined (it means somethig that have not a value)
+let value;//i don't give any value to value variable
+console.log(value);
+// 2.6.....null
+
+// <--------------Ternary Operator------------------->
+
+  /*
+  true ? 'truthy' : 'falsy';
+  */
+ const result = true ? 'truthy' : 'falsy' ;
+console.log(result);
+
+// <------------ AND Operator  (value1 && value2) it check both side are true ---------------->
+let a1=10;
+a2=20;
+// if(a1 === 10 && a2 === 20){
+// console.log('both condition are true');
+// }
+a1 === 10 && a2 === 20 && console.log('both condition are true');
+// <------------ OR Operator  (value1 || value2) it check ANY ONE OR BOTH VALUES ARE TRUE  ---------------->
+
+// if(a1 ===10 || a2 ===10){
+//   console.log('one condition is true');
+// }
+a1 ===10 || a2 ===10 ||  console.log('one condition is true');
+  </script>
+</body>
+</html>
